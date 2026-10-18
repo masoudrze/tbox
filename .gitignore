@@ -1,0 +1,49 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Ruff cache
+.pytest_cache/
+.ruff_cache/
+
+# Test artifacts
+artifacts/reports/*
+artifacts/screenshots/*
+!artifacts/reports/.gitkeep
+!artifacts/screenshots/.gitkeep
+
+# Allure artifacts
+allure-results/
+allure-report/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local browser drivers
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
