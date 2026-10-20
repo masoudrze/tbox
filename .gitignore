@@ -47,3 +47,5 @@ chromedriver
 chromedriver.exe
 geckodriver
 geckodriver.exe
+
+check_driver.py
